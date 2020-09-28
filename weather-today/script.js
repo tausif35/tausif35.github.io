@@ -30,7 +30,7 @@ function searchCity(e) {
   //Check for empty
   if (term.trim()) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?appid=8de8f0a92b0f5bfd9dbe058cb7d2daed&units=metric&q=${term}`
+      `https://api.openweathermap.org/data/2.5/weather?appid=8de8f0a92b0f5bfd9dbe058cb7d2daed&units=metric&q=${term}`
     )
       .then((res) => res.json())
       .then((data) => {
