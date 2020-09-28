@@ -76,6 +76,8 @@ function searchCity(e) {
             countryName.style.color = "white";
           } else {
             upperhalf.style.backgroundImage = "url('img/dayimg.svg')";
+            cityName.style.color = "#3d3d3d";
+            countryName.style.color = "#3d3d3d";
           }
 
           if (minute < 10) {
